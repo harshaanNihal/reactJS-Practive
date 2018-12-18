@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.input_div {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.input_div button {
+    background: #87c1d850;
+}
+
+.inputField {
+    background: #87c1d850;
+    padding: 5px;
+    border: 1px solid #616161;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+}
+
+#root {
+    width: 500px;
+    margin: 0 auto;
+}
+
+input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+}
+
+.inputSearch {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border: 1px solid #616161;
+    border-radius: 5px 5px 0 0;
+}
+
+button {
+    height: 100%;
+    background: transparent;
+    border: 1px solid #616161;
+    border-radius: 0 5px 5px 0;
+}
+
+ul {
+    width: 100%;
+    border: 1.5px solid #87c1d8ca;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 5px;
+    border: 1px solid #61616177;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+}
+
+.mark_unpacked {
+    width: 100%;
+    background: #b44f4f;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
